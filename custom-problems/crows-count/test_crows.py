@@ -1,3 +1,6 @@
+import unittest
+from solution import get_word
+
 class TestCrowDeclension(unittest.TestCase):
     
     def test_vorona_singular(self):
