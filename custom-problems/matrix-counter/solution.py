@@ -1,3 +1,4 @@
+# matrix_counter.py
 from random import randint
 
 
@@ -18,7 +19,7 @@ def print_matrix(matrix):
     """
     for row in matrix:
         for num in row:
-            print(f"{num:>4}", end="\t")  # выравнивание по правому краю
+            print(f"{num:>4}", end="\t")
         print()
 
 
